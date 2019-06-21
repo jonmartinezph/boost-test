@@ -1,0 +1,24 @@
+/* fonts */
+
+$font: 'Hind Madurai', sans-serif;
+
+%font-light {
+    font-family: $font;
+    font-weight: 300;  
+}
+%font-regular {
+    font-family: $font;
+    font-weight: 400;  
+}
+%font-medium {
+    font-family: $font;
+    font-weight: 500;  
+}
+%font-sbold {
+    font-family: $font;
+    font-weight: 600;  
+}
+%font-bold {
+    font-family: $font;
+    font-weight: 700;  
+}
