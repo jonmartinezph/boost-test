@@ -7,6 +7,7 @@ body {
   font-size: 1rem;
   color: $mine-shaft;
   @extend %font-regular;
+  margin-top: 7.8rem;
 }
 .wrapper {
   max-width: 78.13rem;
@@ -18,9 +19,33 @@ body {
   display: block;
   clear: both;
 }
+.cta {
+  margin: 3.5rem 0;
+  a {
+    background-color: $jaffa;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    border-radius: .4rem;
+    letter-spacing: .15rem;
+    transition: background-color .1s ease;
+    -webkit-transition: background-color .1s ease;
+        
+    &:hover {
+      background-color: $bourbon;
+    }
+  }
+}
 h1 {
   font-size: 2.188rem;
+  letter-spacing: .15rem;
 }
 h2 {
   font-size: 1.563rem;
+  padding: 3rem 0;
+  letter-spacing: .15rem;
+}
+p {
+  line-height: 1.7rem;
 }

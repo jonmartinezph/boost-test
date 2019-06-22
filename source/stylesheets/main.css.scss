@@ -1,6 +1,16 @@
+/* global */
 @import 'colours';
 @import 'default';
-@import 'header';
 @import 'variables';
+@import 'owl-carousel';
+
+/* header */
+@import 'header';
+
+/* home */
 @import 'header-banner';
+@import 'home-designs';
+@import 'get-in-touch';
+
+/* footer */
 @import 'footer';

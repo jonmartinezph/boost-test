@@ -7,42 +7,52 @@ footer {
     filter: grayscale(1);
     width: 4rem;
   }
-  ul {
-    padding-top: 1rem;
-    li {
-      display: inline-block;
-      font-style: italic;
-      padding: 0 .7rem;
-      position: relative;
+}
+.footer__nav {
+  padding-top: 1rem;
+  li {
+    display: inline-block;
+    font-style: italic;
+    padding: 0 .7rem;
+    position: relative;
 
-      &:after {
-        content: "/";
-        padding-left: .6rem;
-        color: $white;
-        position: absolute;
-        top: .1rem;
-      }
-      &:last-child:after {
-        content: "";
-      }
+    &:after {
+      content: "/";
+      padding-left: .6rem;
+      color: $white;
+      position: absolute;
+      top: .1rem;
+    }
+    &:last-child:after {
+      content: "";
+    }
 
-      a {
-        text-decoration: none;
-        color: $white;
-      }
+    a {
+      text-decoration: none;
+      color: $white;
     }
   }
 }
 .footer__socials {
   padding-top: 2rem;
 
+  ul {
+    display: inline-block;
+
+    li {
+      float: left;
+      list-style-type: none;
+    }
+  }
+
   img {
-    width: 2rem;
+    width: 1.3rem;
     margin: 0 .5rem;
+    vertical-align: middle;
   }
 }
 .footer__copy {
-  color: $white;
+  color: $mine-shaft;
   font-size: .8rem;
   margin-top: 7rem;
 }
